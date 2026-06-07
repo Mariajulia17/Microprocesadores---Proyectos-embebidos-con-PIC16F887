@@ -1,0 +1,1 @@
+Implementación de un contador decimal de 0 a 9 y un contador hexadecimal en display de 7 segmentos, ambos con función de reset.
