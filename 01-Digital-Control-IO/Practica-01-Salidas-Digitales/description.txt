@@ -1,0 +1,1 @@
+Manejo de salidas digitales mediante parpadeo de 4 LEDs, contador binario de 6 bits y secuencia tipo caminata de 8 bits.
