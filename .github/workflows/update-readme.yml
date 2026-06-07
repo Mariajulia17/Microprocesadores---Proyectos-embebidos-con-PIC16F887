@@ -1,0 +1,112 @@
+name: Update README project tables
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '01-Digital-Control-IO/**'
+      - '02-Peripherals-Timing-Systems/**'
+      - '03-Actuator-Control-Systems/**'
+      - '.github/workflows/update-readme.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate README tables
+        run: |
+          python <<'PY'
+          from pathlib import Path
+          import re
+
+          readme_path = Path("README.md")
+
+          sections = [
+              {
+                  "folder": Path("01-Digital-Control-IO"),
+                  "start": "<!-- DIGITAL_PROJECTS_START -->",
+                  "end": "<!-- DIGITAL_PROJECTS_END -->",
+              },
+              {
+                  "folder": Path("02-Peripherals-Timing-Systems"),
+                  "start": "<!-- PERIPHERALS_PROJECTS_START -->",
+                  "end": "<!-- PERIPHERALS_PROJECTS_END -->",
+              },
+              {
+                  "folder": Path("03-Actuator-Control-Systems"),
+                  "start": "<!-- ACTUATOR_PROJECTS_START -->",
+                  "end": "<!-- ACTUATOR_PROJECTS_END -->",
+              },
+          ]
+
+          def format_project_name(folder_name):
+              clean_name = folder_name.replace("_", "-")
+              parts = clean_name.split("-")
+
+              if len(parts) >= 3 and parts[0].lower() in ["practica", "práctica"]:
+                  number = parts[1]
+                  title = " ".join(parts[2:]).replace("Led", "LED").replace("Io", "I/O").title()
+                  title = title.replace("Led", "LED").replace("8X8", "8x8")
+                  return f"Práctica {number} - {title}"
+
+              return clean_name.replace("-", " ").title()
+
+          def get_description(project_path):
+              description_file = project_path / "description.txt"
+
+              if description_file.exists():
+                  description = description_file.read_text(encoding="utf-8").strip()
+                  return " ".join(description.split())
+
+              return "Proyecto embebido desarrollado con PIC16F887, MPLAB X IDE y Proteus."
+
+          def generate_table(folder):
+              projects = sorted([p for p in folder.iterdir() if p.is_dir()]) if folder.exists() else []
+
+              if not projects:
+                  return "| Proyecto | Descripción | Enlace |\n|---|---|---|\n| Próximamente | Proyecto pendiente por agregar. | Próximamente |"
+
+              rows = ["| Proyecto | Descripción | Enlace |", "|---|---|---|"]
+
+              for project in projects:
+                  name = format_project_name(project.name)
+                  description = get_description(project)
+                  link = f"./{project.as_posix()}/"
+                  rows.append(f"| {name} | {description} | [Ver proyecto]({link}) |")
+
+              return "\n".join(rows)
+
+          readme = readme_path.read_text(encoding="utf-8")
+
+          for section in sections:
+              table = generate_table(section["folder"])
+              pattern = re.compile(
+                  re.escape(section["start"]) + r".*?" + re.escape(section["end"]),
+                  re.DOTALL
+              )
+
+              replacement = f'{section["start"]}\n{table}\n{section["end"]}'
+              readme = pattern.sub(replacement, readme)
+
+          readme_path.write_text(readme, encoding="utf-8")
+          PY
+
+      - name: Commit README changes
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "Update README project tables"
+            git push
+          else
+            echo "README already updated"
+          fi
