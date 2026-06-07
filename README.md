@@ -29,9 +29,9 @@ En esta sección se implementan secuencias con LEDs, contadores binarios, matric
 <!-- DIGITAL_PROJECTS_START -->
 | Proyecto | Descripción | Enlace |
 |---|---|---|
-| Práctica 01 - Salidas digitales | Manejo de salidas digitales mediante parpadeo de 4 LEDs, contador binario de 6 bits y secuencia tipo caminata de 8 bits. | [Ver proyecto](./01-Digital-Control-IO/Practica-01-Salidas-Digitales/) |
+| Práctica 01 - Salidas Digitales | Manejo de salidas digitales mediante parpadeo de 4 LEDs, contador binario de 6 bits y secuencia tipo caminata de 8 bits. | [Ver proyecto](./01-Digital-Control-IO/Practica-01-Salidas-Digitales/) |
 | Práctica 02 - Matriz LED 8x8 | Control de una matriz LED 8x8 mediante multiplexación, mostrando diferentes letras programadas desde MPLAB. | [Ver proyecto](./01-Digital-Control-IO/Practica-02-Matriz-LED-8x8/) |
-| Práctica 03 - Display de 7 segmentos | Implementación de un contador decimal de 0 a 9 y un contador hexadecimal en display de 7 segmentos, ambos con función de reset. | [Ver proyecto](./01-Digital-Control-IO/Practica-03-Display-7-Segmentos/) |
+| Práctica 03 - Display 7 Segmentos | Implementación de un contador decimal de 0 a 9 y un contador hexadecimal en display de 7 segmentos, ambos con función de reset. | [Ver proyecto](./01-Digital-Control-IO/Practica-03-Display-7-Segmentos/) |
 <!-- DIGITAL_PROJECTS_END -->
 
 ---
@@ -44,7 +44,7 @@ Esta sección estará enfocada en el manejo de señales temporizadas, interrupci
 <!-- PERIPHERALS_PROJECTS_START -->
 | Proyecto | Descripción | Enlace |
 |---|---|---|
-| Próximamente | Implementación pendiente relacionada con periféricos, timers o control temporizado. | Próximamente |
+| Próximamente | Proyecto pendiente por agregar. | Próximamente |
 <!-- PERIPHERALS_PROJECTS_END -->
 
 ---
@@ -57,7 +57,7 @@ Esta sección incluirá aplicaciones con motores DC, servomotores, puentes H y s
 <!-- ACTUATOR_PROJECTS_START -->
 | Proyecto | Descripción | Enlace |
 |---|---|---|
-| Próximamente | Implementación pendiente relacionada con motores, servomotores o control de actuadores. | Próximamente |
+| Próximamente | Proyecto pendiente por agregar. | Próximamente |
 <!-- ACTUATOR_PROJECTS_END -->
 
 ---
