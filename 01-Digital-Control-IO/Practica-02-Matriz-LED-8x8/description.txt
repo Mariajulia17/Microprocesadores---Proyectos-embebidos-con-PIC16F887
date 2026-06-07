@@ -1,0 +1,1 @@
+Control de una matriz LED 8x8 mediante multiplexación, mostrando diferentes letras programadas desde MPLAB.
