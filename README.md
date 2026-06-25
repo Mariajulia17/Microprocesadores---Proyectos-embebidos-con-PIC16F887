@@ -32,7 +32,7 @@ En esta sección se implementan secuencias con LEDs, contadores binarios, matric
 | Práctica 01 - Salidas Digitales | Manejo de salidas digitales mediante parpadeo de 4 LEDs, contador binario de 6 bits y secuencia tipo caminata de 8 bits. | [Ver proyecto](./01-Digital-Control-IO/Practica-01-Salidas-Digitales/) |
 | Práctica 02 - Matriz LED 8x8 | Control de una matriz LED 8x8 mediante multiplexación, mostrando diferentes letras programadas desde MPLAB. | [Ver proyecto](./01-Digital-Control-IO/Practica-02-Matriz-LED-8x8/) |
 | Práctica 03 - Display 7 Segmentos | Implementación de un contador decimal de 0 a 9 y un contador hexadecimal en display de 7 segmentos, ambos con función de reset. | [Ver proyecto](./01-Digital-Control-IO/Practica-03-Display-7-Segmentos/) |
-| Práctica 14 - Servomotores Pwm Y Automaticopractica 14 Servomotores | Proyecto embebido desarrollado con PIC16F887, MPLAB X IDE y Proteus. | [Ver proyecto](./01-Digital-Control-IO/Practica-14-Servomotores-PWM-y-AutomaticoPractica-14-Servomotores/) |
+| Práctica 14 - Servomotores Pwm Y Automaticopractica 14 Servomotores | Proyecto embebido desarrollado con PIC16F887, MPLAB X IDE y Proteus. | [Ver proyecto](./01-Digital-Control-IO/Practica-14-Servomotor-PWM-y-Automatico) |
 <!-- DIGITAL_PROJECTS_END -->
 
 ---
