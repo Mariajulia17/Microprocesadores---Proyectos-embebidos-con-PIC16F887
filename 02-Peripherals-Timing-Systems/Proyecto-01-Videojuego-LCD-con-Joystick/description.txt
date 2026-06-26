@@ -1,0 +1,1 @@
+Videojuego en LCD 16x2 con el PIC16F887, utilizando potenciómetros como joystick simulado para controlar el movimiento mediante entradas analógicas.
