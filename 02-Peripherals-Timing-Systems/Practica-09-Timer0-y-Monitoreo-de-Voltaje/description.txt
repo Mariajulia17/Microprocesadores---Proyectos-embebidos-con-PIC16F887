@@ -1,0 +1,1 @@
+Monitoreo de voltaje analógico con el PIC16F887 mediante ADC, mostrando el valor en LCD 16x2 y utilizando Timer0 para temporización.
