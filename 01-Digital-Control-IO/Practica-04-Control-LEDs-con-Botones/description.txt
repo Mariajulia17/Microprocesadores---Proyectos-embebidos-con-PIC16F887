@@ -1,0 +1,1 @@
+Uso de botones como entradas digitales en el PIC16F887 para controlar LEDs y un contador de 0 a 99 en displays de 7 segmentos.
