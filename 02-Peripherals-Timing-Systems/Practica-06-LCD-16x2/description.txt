@@ -1,0 +1,1 @@
+Control de una pantalla LCD 16x2 con el PIC16F887, utilizando salidas digitales para mostrar información y reforzar el manejo de periféricos.
