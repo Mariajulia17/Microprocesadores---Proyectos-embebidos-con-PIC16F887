@@ -1,0 +1,1 @@
+Lectura de dos voltajes analógicos con el PIC16F887 mediante ADC, mostrando en LCD 16x2 el voltaje 1 o voltaje 2 según el botón presionado.
