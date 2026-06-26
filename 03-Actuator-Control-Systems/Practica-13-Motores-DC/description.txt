@@ -1,0 +1,1 @@
+Control de velocidad y sentido de giro de un motor DC con el PIC16F887, utilizando PWM, un driver con BJT y un puente H L298.
