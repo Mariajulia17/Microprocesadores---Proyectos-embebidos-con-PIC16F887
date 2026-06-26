@@ -47,7 +47,7 @@ Esta sección estará enfocada en el manejo de señales temporizadas, interrupci
 <!-- PERIPHERALS_PROJECTS_START -->
 | Proyecto | Descripción | Enlace |
 |---|---|---|
-| Próximamente | Proyecto pendiente por agregar. | Próximamente |
+| Práctica 06 - Lcd 16X2 | Control de una pantalla LCD 16x2 con el PIC16F887, utilizando salidas digitales para mostrar información y reforzar el manejo de periféricos. | [Ver proyecto](./02-Peripherals-Timing-Systems/Practica-06-LCD-16x2/) |
 <!-- PERIPHERALS_PROJECTS_END -->
 
 ---
