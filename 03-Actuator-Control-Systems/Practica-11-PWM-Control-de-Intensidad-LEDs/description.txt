@@ -1,0 +1,1 @@
+Generación de señales PWM por hardware y software con el PIC16F887 para controlar la intensidad de LEDs mediante variación por potenciómetros. 
