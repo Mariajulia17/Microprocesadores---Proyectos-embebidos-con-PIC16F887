@@ -48,6 +48,7 @@ Esta sección estará enfocada en el manejo de señales temporizadas, interrupci
 | Proyecto | Descripción | Enlace |
 |---|---|---|
 | Práctica 06 - Lcd 16X2 | Control de una pantalla LCD 16x2 con el PIC16F887, utilizando salidas digitales para mostrar información y reforzar el manejo de periféricos. | [Ver proyecto](./02-Peripherals-Timing-Systems/Practica-06-LCD-16x2/) |
+| Práctica 07 - Lcd Con Entrada Analogica | Lectura ADC de un potenciómetro con el PIC16F887, mostrando en LCD 16x2 el valor como voltaje o porcentaje mediante un botón de cambio de modo. | [Ver proyecto](./02-Peripherals-Timing-Systems/Practica-07-LCD-con-Entrada-Analogica/) |
 <!-- PERIPHERALS_PROJECTS_END -->
 
 ---
