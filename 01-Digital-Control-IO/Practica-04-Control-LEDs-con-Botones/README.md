@@ -56,11 +56,11 @@ En la actividad con displays, los botones permiten modificar o reiniciar el valo
 
 ## Evidencias
 
-### Circuito con displays en Proteus
+### Circuito con LEDS en Proteus
 
 <img src="./Circuito%20proteus%20practica%204.png" width="550">
 
-### Circuito de control con botones
+### Circuito de control de displays por medio de botones
 
 <img src="./Circuito_proteus%20practica%204.1.jpeg" width="550">
 
