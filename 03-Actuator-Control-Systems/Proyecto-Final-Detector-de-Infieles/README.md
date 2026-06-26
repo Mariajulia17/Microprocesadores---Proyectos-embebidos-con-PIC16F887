@@ -1,14 +1,12 @@
-# Detector de Infieles con PIC16F887
+# Detector de Infieles
 
 ## Descripción del proyecto
 
-Este proyecto consiste en un sistema interactivo llamado **Detector de Infieles**, desarrollado con el microcontrolador **PIC16F887**. El sistema funciona como una simulación tipo polígrafo, donde una persona responde una serie de preguntas usando botones de **SI** y **NO**.
+Este proyecto consiste en un sistema interactivo llamado Detector de Infieles, desarrollado con el microcontrolador PIC16F887. El sistema funciona como una simulación tipo polígrafo, donde una persona responde una serie de preguntas usando botones de SI y NO.
 
-Además de las respuestas, el sistema utiliza dos potenciómetros para simular el nivel de **nervios** y **estrés** de la persona. Con estos datos, el programa calcula un porcentaje de culpa y muestra un veredicto final en una pantalla LCD.
+Además de las respuestas, el sistema utiliza dos potenciómetros para simular el nivel de nervios y estrés de la persona. Con estos datos, el programa calcula un porcentaje de culpa y muestra un veredicto final en una pantalla LCD.
 
 El proyecto también utiliza LEDs, un buzzer y un servomotor para representar el resultado de forma visual y sonora.
-
-> Este proyecto es recreativo y didáctico. No detecta una infidelidad real, sino que sirve para demostrar el uso de entradas analógicas, entradas digitales, LCD, PWM, LEDs, buzzer y servomotor con el PIC16F887.
 
 ## Objetivo general
 
@@ -416,8 +414,8 @@ Resultado esperado:
 
 ## Conclusión
 
-Este proyecto permitió aplicar varios temas importantes de microcontroladores en una sola práctica. Se utilizó el ADC para leer potenciómetros, entradas digitales para leer botones, una pantalla LCD para mostrar información, PWM para controlar un servomotor, LEDs como indicadores visuales y un buzzer como indicador sonoro.
+En este proyecto pudimos aplicar varios temas importantes de microcontroladores en una sola práctica. Se utilizó el ADC para leer potenciómetros, entradas digitales para leer botones, una pantalla LCD para mostrar información, PWM para controlar un servomotor, LEDs como indicadores visuales y un buzzer como indicador sonoro.
 
-Aunque el sistema tiene una temática divertida, el proyecto demuestra cómo el PIC16F887 puede recibir información, procesarla mediante programación y controlar diferentes salidas electrónicas.
+Aunque el proyecto elegimos una temática divertida, el proyecto demuestra cómo el PIC16F887 puede recibir información, procesarla mediante programación y controlar diferentes salidas electrónicas.
 
 El Detector de Infieles funciona como una simulación interactiva tipo polígrafo, donde los potenciómetros representan nervios y estrés, los botones registran respuestas, y el programa calcula un porcentaje de culpa para mostrar un veredicto final.
