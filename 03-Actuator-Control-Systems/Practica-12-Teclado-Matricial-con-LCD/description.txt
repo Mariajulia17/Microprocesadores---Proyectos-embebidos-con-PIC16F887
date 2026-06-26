@@ -1,0 +1,1 @@
+Lectura de un teclado matricial con el PIC16F887 para mostrar caracteres en una LCD 16x2 y realizar una calculadora básica.
