@@ -67,6 +67,7 @@ Esta sección incluirá aplicaciones con motores DC, servomotores, puentes H y s
 | Práctica 11 - Pwm Control De Intensidad LEDs | Generación de señales PWM por hardware y software con el PIC16F887 para controlar la intensidad de LEDs mediante variación por potenciómetros. | [Ver proyecto](./03-Actuator-Control-Systems/Practica-11-PWM-Control-de-Intensidad-LEDs/) |
 | Práctica 12 - Teclado Matricial Con Lcd | Lectura de un teclado matricial con el PIC16F887 para mostrar caracteres en una LCD 16x2 y realizar una calculadora básica. | [Ver proyecto](./03-Actuator-Control-Systems/Practica-12-Teclado-Matricial-con-LCD/) |
 | Práctica 13 - Motores Dc | Control de velocidad y sentido de giro de un motor DC con el PIC16F887, utilizando PWM, un driver con BJT y un puente H L298. | [Ver proyecto](./03-Actuator-Control-Systems/Practica-13-Motores-DC/) |
+| Práctica 14 - Servomotores | Control de servomotor con el PIC16F887, implementando movimiento de 0° a 180° y control de ángulo mediante potenciómetro. | [Ver proyecto](./03-Actuator-Control-Systems/Practica-14-Servomotores/) |
 <!-- ACTUATOR_PROJECTS_END -->
 
 ---
