@@ -1,0 +1,1 @@
+Control de un display de 7 segmentos de 4 dígitos con el PIC16F887, utilizando salidas digitales y multiplexación para mostrar valores numéricos.
