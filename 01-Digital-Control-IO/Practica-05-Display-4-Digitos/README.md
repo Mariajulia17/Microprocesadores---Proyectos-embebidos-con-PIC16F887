@@ -85,17 +85,21 @@ En la actividad de clase 2, el display debe contar del **0 al 9** y, al presiona
 
 ### Contador 0-9 con interrupción y LED
 
-<img src="./1A9DF10A-0224-487F-8858-94D9EE5D01E4.jpeg" width="550">
+<img src="./Circuito%20proteus%20practica%205.1.jpeg" width="550">
 
 ### Display de 4 dígitos multiplexado
 
-<img src="./DE12FB81-FBD9-4348-84DA-4F649120B529.jpeg" width="550">
+<img src="./Circuito%20proteus%20practica%205.jpeg" width="550">
 
 ## Archivos
 
 | Archivo | Descripción |
 |---|---|
-| `.hex` | Archivos compilados de las actividades |
-| `.pdsprj` | Proyecto de simulación en Proteus |
-| `1A9DF10A-0224-487F-8858-94D9EE5D01E4.jpeg` | Evidencia del contador con interrupción y LED |
-| `DE12FB81-FBD9-4348-84DA-4F649120B529.jpeg` | Evidencia del display de 4 dígitos multiplexado |
+| `Actividad_5.X.production.hex` | Archivo compilado de la actividad principal |
+| `Practica_5.X.production.hex` | Archivo compilado de práctica con display multiplexado |
+| `Practica_5b.X.production.hex` | Archivo compilado del contador con interrupción |
+| `Micro_practica5.pdsprj` | Proyecto de simulación en Proteus |
+| `Micro_practica5_1.pdsprj` | Proyecto de simulación adicional en Proteus |
+| `Circuito proteus practica 5.jpeg` | Evidencia del display de 4 dígitos multiplexado |
+| `Circuito proteus practica 5.1.jpeg` | Evidencia del contador con interrupción y LED |
+
