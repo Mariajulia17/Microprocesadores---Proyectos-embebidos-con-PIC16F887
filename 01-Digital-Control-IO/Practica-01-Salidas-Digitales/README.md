@@ -58,7 +58,7 @@ En la actividad del contador binario, los LEDs deben cambiar su estado para repr
 
 ### Simulación en Proteus
 
-![Circuito en Proteus](./circuito_proteus.png)
+![Circuito en Proteus](./Circuito%20en%20Proteus.png)
 
 ### Video del contador binario
 
