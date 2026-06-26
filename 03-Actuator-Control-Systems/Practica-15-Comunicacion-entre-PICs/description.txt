@@ -1,0 +1,1 @@
+Comunicación digital entre dos microcontroladores PIC16F887 para enviar señales de control, coordinar respuestas y activar salidas mediante LEDs.
