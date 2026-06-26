@@ -1,0 +1,1 @@
+Lectura ADC de un potenciómetro con el PIC16F887, mostrando en LCD 16x2 el valor como voltaje o porcentaje mediante un botón de cambio de modo.
