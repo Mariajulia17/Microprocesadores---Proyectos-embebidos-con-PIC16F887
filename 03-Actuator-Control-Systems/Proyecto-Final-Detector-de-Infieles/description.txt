@@ -1,0 +1,1 @@
+Sistema tipo polígrafo desarrollado con el PIC16F887, integrando LCD, botones, LEDs, buzzer, servo y veredicto final interactivo.
