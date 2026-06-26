@@ -64,7 +64,7 @@ Esta sección incluirá aplicaciones con motores DC, servomotores, puentes H y s
 <!-- ACTUATOR_PROJECTS_START -->
 | Proyecto | Descripción | Enlace |
 |---|---|---|
-| Próximamente | Proyecto pendiente por agregar. | Próximamente |
+| Práctica 11 - Pwm Control De Intensidad LEDs | Generación de señales PWM por hardware y software con el PIC16F887 para controlar la intensidad de LEDs mediante variación por potenciómetros. | [Ver proyecto](./03-Actuator-Control-Systems/Practica-11-PWM-Control-de-Intensidad-LEDs/) |
 <!-- ACTUATOR_PROJECTS_END -->
 
 ---
